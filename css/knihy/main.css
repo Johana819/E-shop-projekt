@@ -1,6 +1,5 @@
 body {
     background-color: lightblue;
-    color: darkblue;
 }
 
 
@@ -10,6 +9,8 @@ body {
     align-items: space-between;
     align-items: center;
     flex-direction: row;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
@@ -24,4 +25,10 @@ div{
     
     font-family: "comic sans MS", cursive, sans-serif;
     text-align: center;
+    color: darkblue;
+}
+
+.page {
+    border-right: 10vmin darkblue solid;
+    border-left: 10vmin darkblue solid;
 }
