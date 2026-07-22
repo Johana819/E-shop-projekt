@@ -1,17 +1,27 @@
 body {
     background-color: darkred;
+    
 }
 .obrázky {
-    max-width: 100px;
-    max-height: 150px;
+    max-width: 250px;
+    max-height: 300px;
+    align-items: space-between;
+    align-items: center;
+    flex-direction: row;
 }
-
-img {
-    width: 100px;
-    height: 150px;
+img{
+    max-width: 250px;
+    max-height: 300px;
+    align-items: center;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: row;
 }
 div{
     
     font-family: "comic sans MS", cursive, sans-serif;
     text-align: center;
+}
+.text{
+    color: white;
 }
