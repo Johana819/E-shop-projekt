@@ -38,29 +38,7 @@ body {
         width: 100%;
         height: auto;
     }
-.page { 
+body { 
     border-left: 10vmin solid darkblue;
     border-right: 10vmin solid darkblue;
-}
-
-body::before {
-    content: '';
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 10vmin;
-    height: 100%;
-    background-color: darkblue;
-    z-index: 1;
-}
-    
-body::after {
-    content: '';
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 10vmin;
-    height: 100%;
-    background-color: darkblue;
-    z-index: 1;
 }
