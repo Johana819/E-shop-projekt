@@ -1,7 +1,25 @@
 body {
     background-color:lightblue;
 }
-img {
-    height: 400px;
-    width: 350px;
+
+.Obrázek {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-item: flex-start;
+
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+.Obrázek img {
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
