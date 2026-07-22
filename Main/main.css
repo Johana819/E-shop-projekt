@@ -2,24 +2,18 @@ body {
     background-color:lightblue;
 }
 
-.Obrázek {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-item: flex-start;
 
-    gap: 30px;
-    margin-top: 20px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    width: 100%;
+
+.Frame img {
+    width: 200px;
+    height: 450px;
+    object-fit: contain;
+    margin-right: 32px;
 }
 
-.Obrázek img {
-    width: 500px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 10px;
+.Frame {
+    display: flex;
     flex-direction: row;
+    gap: 16;
 }
 
