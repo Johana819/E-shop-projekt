@@ -9,3 +9,22 @@ img {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
 }
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 800px;
+    }
+    
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<div class="container">
+    <img src="https://realsound.jp/wp-content/uploads/2023/09/20230929-otoko.jpg.webp" alt="První obrázek">
+    <img src="https://img.imago.cz/berserk-1-5f0c18c2bab6b/berserk-1-5f0c18c2bab6b-1000x1000.webp" alt="Druhý obrázek">
+</div>
