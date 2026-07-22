@@ -1,5 +1,5 @@
 body {
-    background-color: darkred;
+    background-color: lightblue;
 }
 img {
      height: 300px;
@@ -8,4 +8,26 @@ img {
 .Text {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
 }
