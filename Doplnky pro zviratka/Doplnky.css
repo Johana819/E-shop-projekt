@@ -3,7 +3,19 @@
   max-width: 600px;
   line-height: 1.6; 
 }
+
 .body {
   color:  darkblue;
   background-color:lightblue ;
+  align-items: flex-start;
   }
+
+  img  {
+    justify-content: end;
+  }
+
+  .obrazek {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
