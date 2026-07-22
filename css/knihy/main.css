@@ -1,0 +1,17 @@
+body {
+    background-color: darkred;
+}
+.obrázky {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+div{
+    
+    font-family: "comic sans MS", cursive, sans-serif;
+    text-align: center;
+}
