@@ -2,7 +2,19 @@ img {
     height: 300px;
     width: 300px;
 }
-img {
-    height: 300px;
-    width: 300px;
+.obrazek img {
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+}
+body {
+   background-color: lightblue;
+}
+body {
+    text-align: center;
+}
+.page {
+    border-right: 10vmin darkblue solid;
+    border-left: 10vmin darkblue solid;
+    height: 100%;
 }
