@@ -1,0 +1,11 @@
+body {
+    background-color: darkred;
+}
+img {
+     height: 300px;
+     width: 225px;
+}
+.Text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
