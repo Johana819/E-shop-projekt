@@ -1,6 +1,7 @@
 img {
     height: 300px;
     width: 300px;
+   
 }
 .obrazek img {
     height: 250px;
@@ -9,12 +10,16 @@ img {
 }
 body {
    background-color: lightblue;
-}
-body {
+    flex-direction: row;
     text-align: center;
 }
+ 
 .page {
-    border-right: 10vmin darkblue solid;
-    border-left: 10vmin darkblue solid;
-    height: 100%;
+    border-right: 10vmin darkblue solid; min-height: 100vh;
+    border-left: 10vmin darkblue solid; min-height: 100vh ;
+}
+
+.obrazek {
+    display: flex;
+    flex-direction: row;
 }
