@@ -1,11 +1,13 @@
 img {
     height: 300px;
     width: 300px;
-   
+   align-items: center;
+   justify-content: center;
 }
 .obrazek img {
     height: 250px;
     width: 250px;
+    align-items: center;
     justify-content: center;
 }
 body {
@@ -22,4 +24,6 @@ body {
 .obrazek {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
