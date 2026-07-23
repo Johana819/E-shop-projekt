@@ -4,28 +4,8 @@ body {
     background-color: rgb(173, 216, 230);
     margin: 0;
     padding: 0;
-}
-
-body::before {
-    content: '';
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 10vmin;
-    height: 100%;
-    background-color: darkblue;
-    z-index: 1;
-}
-
-body::after {
-    content: '';
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 10vmin;
-    height: 100%;
-    background-color: darkblue;
-    z-index: 1;
+    border-left: 10vmin solid darkblue;
+    border-right: 10vmin solid darkblue;
 }
 
 .Text {
@@ -50,8 +30,12 @@ body::after {
 }
 
 .Obrázky img {
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
+}
+.container img {
+        width: 100%;
+        height: auto;
 }
