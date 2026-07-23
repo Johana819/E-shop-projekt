@@ -2,8 +2,6 @@
 
 body {
     background-color: rgb(173, 216, 230);
-    margin: 0;
-    padding: 0;
     border-left: 10vmin solid darkblue;
     border-right: 10vmin solid darkblue;
 }
@@ -14,6 +12,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 
 .Obrázky {
     display: grid;
@@ -39,4 +38,3 @@ body {
 .container img {
         width: 100%;
         height: auto;
-}
