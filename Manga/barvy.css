@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
 
 body {
+<<<<<<< HEAD
     background-color: rgb(173, 216, 230);
     margin: 0;
     padding: 0;
     border-left: 10vmin solid darkblue;
     border-right: 10vmin solid darkblue;
+=======
+    background-color: lightblue;
+}
+img {
+     height: 300px;
+     width: 225px;
+>>>>>>> main
 }
 
 .Text {
@@ -15,6 +23,7 @@ body {
     margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .Obrázky {
     display: flex;
     flex-direction: row;
@@ -38,4 +47,26 @@ body {
 .container img {
         width: 100%;
         height: auto;
+=======
+body::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
+>>>>>>> main
 }
