@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+    text-align: center;
 }
 
 .Frame {
@@ -21,4 +22,10 @@ body {
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.Text {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
