@@ -2,8 +2,6 @@
 
 body {
     background-color: rgb(173, 216, 230);
-    margin: 0;
-    padding: 0;
     border-left: 10vmin solid darkblue;
     border-right: 10vmin solid darkblue;
 }
@@ -16,7 +14,8 @@ body {
 }
 
 .Obrázky {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -30,8 +29,8 @@ body {
 }
 
 .Obrázky img {
-    width: 350px;
-    height: 500px;
+    width: 100%;
+    display: block;aspect-ratio: 10 / 13;
     object-fit: cover;
     border-radius: 10px;
 }
