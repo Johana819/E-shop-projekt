@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+
+body {
+<<<<<<< HEAD
+    background-color: rgb(173, 216, 230);
+    margin: 0;
+    padding: 0;
+    border-left: 10vmin solid darkblue;
+    border-right: 10vmin solid darkblue;
+=======
+    background-color: lightblue;
+}
+img {
+     height: 300px;
+     width: 225px;
+>>>>>>> main
+}
+
+.Text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+<<<<<<< HEAD
+.Obrázky {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Obrázky img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.container img {
+        width: 100%;
+        height: auto;
+=======
+body::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 10vimn;
+    height: 100%;
+    background-color: darkblue;
+    z-index: 1;
+>>>>>>> main
+}
